@@ -1,0 +1,24 @@
+{
+    "editor.fontFamily": "Gadugi",
+    "editor.fontWeight": "bold",
+    "editor.fontSize": 20,
+    "files.autoSave": "afterDelay",
+    "editor.tabCompletion": "on",
+    "terminal.integrated.fontFamily": "monospace",
+    "workbench.colorCustomizations": {
+        "editorCursor.foreground": "#FFF",
+        "editor.selectionBackground": "#646464",
+        "editor.selectionForeground": "#F8F8F8",
+        "editor.lineHighlightBackground": "#000080",
+        "editorLineNumber.activeForeground": "#F8F8F8",
+        "editorLineNumber.foreground": "#969696",
+    },
+    "editor.tokenColorCustomizations": {
+       "functions": "#D2B48C",
+        "strings": "#00AA00",
+        "variables": "#FFF",
+        "keywords": "#0096FF",
+        "types": "#900090",
+        "numbers": "#F0D20A"
+    }
+}

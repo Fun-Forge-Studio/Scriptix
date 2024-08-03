@@ -3,7 +3,8 @@
 #include "Scriptix/scriptix.cpp"
 
 int main() {
-    String message("Hello World");
+    String message("Hello ");
+    message.AppendString("World");
     message.TypeLine();
     return 0;
 }

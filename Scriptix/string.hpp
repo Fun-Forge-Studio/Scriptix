@@ -12,5 +12,6 @@ public:
 	~String();
 
     int GetLength() const;
+    void AppendString(const char* suffix);
     void TypeLine() const;
 };

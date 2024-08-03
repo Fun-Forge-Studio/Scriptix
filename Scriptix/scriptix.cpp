@@ -4,7 +4,19 @@
 #include "scriptix.h"
 #include "string.hpp"
 
-using namespace std;
+Bool begin() {
+    Bool success = false;
+    if(!success) {
+        errorHandler.setError(ErrorCode::InitializationFailed);
+        return False;
+    } 
+    errorHandler.setError(ErrorCode::None);
+    return True;
+}
+
+Bool end() {
+
+}
 
 void delay(int seconds) {
 	sleep(seconds);
@@ -54,4 +66,16 @@ void String::AppendString(const char* suffix) {
 
 void String::TypeLine() const {
 	printf("%s\n", data);
+}
+
+void ErrorHandler::setError(ErrorCode code) {
+    currentError = code;
+}
+
+ErrorCode ErrorHandler::GetError() const {
+    auto it = errorMessages.find(currentError);
+    if(it != errorMessages.end()) {
+        return it->second;
+    }
+    return " Unknown error.
 }

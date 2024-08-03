@@ -13,5 +13,5 @@ public:
 
     int GetLength() const;
     void AppendString(const char* suffix);
-    void TypeLine() const;
+    virtual void TypeLine() const;
 };

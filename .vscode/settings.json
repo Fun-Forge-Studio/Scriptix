@@ -32,4 +32,8 @@
         "editor.wordBasedSuggestions": "currentDocument",
         "editor.semanticHighlighting.enabled": true
     },
+    "files.associations": {
+        "scriptix.h": "c",
+        "scriptix.hpp": "cpp"
+    }
 }

@@ -1,28 +1,38 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <iostream>
-#include "scriptix.h"
+#include "scriptix.hpp"
 #include "string.hpp"
 
-Bool begin() {
-    Bool success = false;
+using namespace scriptix;
+
+/*Bool begin() {
+    bool success = false;
     if(!success) {
-        errorHandler.setError(ErrorCode::InitializationFailed);
-        return False;
+        //errorHandler.setError(ErrorCode::InitializationFailed);
+        return false;
     } 
-    errorHandler.setError(ErrorCode::None);
-    return True;
-}
+    //errorHandler.setError(ErrorCode::None);
+    return true;
+}*/
 
-Bool end() {
+/*Bool end() {
+    bool success = true;
 
-}
+    if(!success) {
+        //errorHandler.setError(ErrorCode::CleanupFailed);
+        return false;
+    }
+
+    //errorHandler.setError(ErrorCode::None);
+    return true;
+}*/
 
 void delay(int seconds) {
 	sleep(seconds);
 }
 
-string input(const char* prompt) {
+string input(const char* prompt){
 	string input;
 	cout << prompt;
 	getline(cin, input);
@@ -66,16 +76,4 @@ void String::AppendString(const char* suffix) {
 
 void String::TypeLine() const {
 	printf("%s\n", data);
-}
-
-void ErrorHandler::setError(ErrorCode code) {
-    currentError = code;
-}
-
-ErrorCode ErrorHandler::GetError() const {
-    auto it = errorMessages.find(currentError);
-    if(it != errorMessages.end()) {
-        return it->second;
-    }
-    return " Unknown error.
 }

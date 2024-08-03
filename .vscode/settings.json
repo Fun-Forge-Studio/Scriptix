@@ -20,5 +20,16 @@
         "keywords": "#0096FF",
         "types": "#900090",
         "numbers": "#F0D20A"
-    }
+    },
+    "[c]": {
+        "editor.cursorStyle": "block",
+        "editor.cursorBlinking": "smooth",
+        "editor.fontFamily": "Consolas, 'Courier New', monospace",
+        "editor.wordBasedSuggestions": "currentDocument",
+        "editor.semanticHighlighting.enabled": true
+    },
+    "[cpp]": {
+        "editor.wordBasedSuggestions": "currentDocument",
+        "editor.semanticHighlighting.enabled": true
+    },
 }

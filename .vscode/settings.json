@@ -23,7 +23,7 @@
     },
     "[c]": {
         "editor.cursorStyle": "block",
-        "editor.cursorBlinking": "smooth",
+        "editor.cursorBlinking": "solid",
         "editor.fontFamily": "Consolas, 'Courier New', monospace",
         "editor.wordBasedSuggestions": "currentDocument",
         "editor.semanticHighlighting.enabled": true
@@ -32,5 +32,7 @@
         "editor.wordBasedSuggestions": "currentDocument",
         "editor.semanticHighlighting.enabled": true
     },
-    "files.associations": {}
+    "files.associations": {
+        "scriptix.h": "cpp"
+    }
 }

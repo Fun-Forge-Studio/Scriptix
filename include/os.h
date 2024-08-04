@@ -10,6 +10,6 @@
 #include <stddef.h>
 #include "scriptix.h"
 
-Bool typeline(String message);
+Bool TypeLine(String message);
 
 #endif

@@ -4,3 +4,7 @@
  * @file scriptix.h
  * @version 0.1.0
  */
+
+#define Bool _Bool
+
+typedef const char* String;

@@ -1,4 +1,6 @@
+#include <stdio.h>
 #include "../include/os.h"
 
-size_t col = 0;
-size_t row = 0;
+Bool typeline(String message) {
+    printf(
+}

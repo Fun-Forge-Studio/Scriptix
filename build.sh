@@ -1,5 +1,5 @@
-set -xm -Wall -Wextra
+set -xm
 rm -rf bin
 mkdir bin
 
-gcc os.c -o bin/Scriptix.exe -std=c99 -Werror -Wno-unused-parameter -Wno-unused-varables -lm
+gcc main.c -o bin/Scriptix.exe -std=c99 -Wall -Wextra -Werror -Wno-unused-parameter -Wno-unused-varables -lm

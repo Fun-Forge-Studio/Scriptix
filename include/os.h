@@ -8,6 +8,8 @@
 
 #include <stdint.h>
 #include <stddef.h>
+#include "scriptix.h"
 
+Bool typeline(String message);
 
 #endif

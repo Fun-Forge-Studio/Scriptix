@@ -1,3 +1,3 @@
-| Name | Description | Value |
-| :-- | :-- | :-- |
-| String
+| Name | Value |
+| :-- | :-- |
+| String | **const char***|

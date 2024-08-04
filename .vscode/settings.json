@@ -21,8 +21,15 @@
         "types": "#900090",
         "numbers": "#F0D20A"
     },
-    "[python]": {
+    "[c]": {
+        "editor.cursorBlinking": "solid",
+        "editor.cursorStyle": "block",
         "editor.fontFamily": "Consolas, 'Courier New', monospace",
         "editor.wordBasedSuggestions": "currentDocument"
+    },
+    "files.associations": {
+        "console.h": "c",
+        "gdt.h": "c",
+        "scriptix.h": "cpp"
     }
 }

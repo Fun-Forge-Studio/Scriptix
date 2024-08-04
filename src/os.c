@@ -2,5 +2,10 @@
 #include "../include/os.h"
 
 Bool typeline(String message) {
-    printf(
+    if(message != NULL) {
+        printf("%ps\n", message);
+        return True;
+    } else {
+        return False;
+    }
 }

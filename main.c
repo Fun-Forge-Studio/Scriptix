@@ -3,6 +3,6 @@
 #include "src/os.c"
 
 int main() {
-    printf("Hello World");
+    typeline()
     return 0;
 }

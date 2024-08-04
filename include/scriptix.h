@@ -6,5 +6,7 @@
  */
 
 #define Bool _Bool
+#define True 1
+#define False -1
 
 typedef const char* String;

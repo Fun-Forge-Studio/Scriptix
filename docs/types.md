@@ -1,3 +1,3 @@
 | Name | Value |
 | :-- | :-- |
-| String | **const char***|
+| **String** | `const char*` |

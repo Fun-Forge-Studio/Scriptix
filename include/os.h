@@ -1,6 +1,6 @@
 /**
  * @anchor DevByEagle
- * @file console.h
+ * @file os.h
  */
 
 #ifndef OS_H

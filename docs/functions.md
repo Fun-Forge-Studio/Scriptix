@@ -4,4 +4,4 @@ This documentation provides a detailed description of the various functions used
 
 <h2 style="color: gray">
 TypeLine
-</h2
+</h2>

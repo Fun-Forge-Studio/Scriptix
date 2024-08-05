@@ -1,8 +1,13 @@
 #include <stdio.h>
-#include "include/os.h"
-#include "src/os.c"
+#include "scriptix/scriptix.c"
 
 int main() {
-    typeline()
+    String value = "Hello World";
+
+    initialize_memory_pool();
+
+    char* a = (char*)xalloc(sizeof(value));
+    printf("%p\n", a);
+
     return 0;
 }

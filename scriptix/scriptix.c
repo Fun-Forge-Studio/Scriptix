@@ -1,8 +1,9 @@
 #include <stdio.h>
+#include <ctype.h>
 #include <string.h>
 #include "scriptix.h"
 
-void TypeLine(String msg) {
+void TypeLine(String  msg) {
     printf("%s\n", msg);
 }
 
@@ -39,4 +40,3 @@ void GetError(SRESULT RESULT) {
     }
     exit(RESULT);
 }
-

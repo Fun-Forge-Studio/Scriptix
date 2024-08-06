@@ -14,8 +14,8 @@
 #define False -1
 
 // Types & Enums
-typedef signed int Number;
 typedef const char* String;
+typedef signed int Number;
 
 typedef enum SRESULT {
 	SUCCESS = 0,
@@ -28,5 +28,5 @@ typedef enum SRESULT {
 // Functions
 /** @brief Writes a message to the terminal. */
 void TypeLine(String msg);
-void Input(char* prompt, char* buffer, int bufferSize);
+void Input(char *prompt, char *buffer, int bufferSize);
 void GetError(SRESULT RESULT);

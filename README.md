@@ -4,5 +4,5 @@ Scripix is a simple C library providing utility functions for string manipulatio
 
 ## Features
 - Basic boolean operations
-- Basic Error handling
+- Basic error handling
 - Custom input handling

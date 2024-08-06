@@ -6,7 +6,7 @@ void TypeLine(String msg) {
     printf("%s\n", msg);
 }
 
-void input(char *prompt, char *buffer, int bufferSize) {
+void Input(char *prompt, char *buffer, int bufferSize) {
     printf("%s", prompt);
     if(fgets(buffer, bufferSize, stdin) != NULL) {
         // Remove newline character if persent
@@ -39,3 +39,4 @@ void GetError(SRESULT RESULT) {
     }
     exit(RESULT);
 }
+

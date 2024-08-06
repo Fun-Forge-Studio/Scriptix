@@ -28,5 +28,5 @@ typedef enum SRESULT {
 // Functions
 /** @brief Writes a message to the terminal. */
 void TypeLine(String msg);
-void input(char* prompt, char* buffer, int bufferSize);
+void Input(char* prompt, char* buffer, int bufferSize);
 void GetError(SRESULT RESULT);

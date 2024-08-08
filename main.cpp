@@ -3,10 +3,11 @@
 
 using namespace Scriptix;
 
+int values[] = { 1, 2, 3 };
+
 int main() {
-    String message("Hello World");
 
-    message.TypeLine();
+  for
 
-    return 0;
+   return 0;
 }

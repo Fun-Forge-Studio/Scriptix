@@ -5,17 +5,13 @@
  * @file scriptix.h
  */
 
+#pragma once
+
 // Includes
-#include "xalloc.c"
 
 // Defines
-#define Bool _Bool
 #define True 1
 #define False -1
-
-// Types & Enums
-typedef const char* String;
-typedef signed int Number;
 
 typedef enum SRESULT {
 	SUCCESS = 0,
@@ -25,8 +21,14 @@ typedef enum SRESULT {
 	NOT_IMPLEMENTED,
 } SRESULT;
 
-// Functions
-/** @brief Writes a message to the terminal. */
-void TypeLine(String msg);
-void Input(char *prompt, char *buffer, int bufferSize);
+#ifdef __cplusplus
+namespace Scriptix {
+	typedef signed int Number;
+
+	void GetError(SRESULT RESULT);
+}
+#else
+typedef signed int Number;
+
 void GetError(SRESULT RESULT);
+#endif

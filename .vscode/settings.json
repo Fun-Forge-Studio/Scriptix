@@ -28,8 +28,5 @@
         "editor.wordBasedSuggestions": "currentDocument"
     },
     "files.associations": {
-        "console.h": "c",
-        "gdt.h": "c",
-        "scriptix.h": "cpp"
     }
 }

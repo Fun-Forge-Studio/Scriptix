@@ -28,5 +28,6 @@
         "editor.wordBasedSuggestions": "currentDocument"
     },
     "files.associations": {
+        "*.h": "cpp"
     }
 }
